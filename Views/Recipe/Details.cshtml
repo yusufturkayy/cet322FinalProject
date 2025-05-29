@@ -1,0 +1,134 @@
+@model CookShare.Models.Recipe
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="mb-4">@Model.Title</h1>
+            <p class="text-muted">
+                By @Model.User?.FirstName @Model.User?.LastName | 
+                <i class="fas fa-clock"></i> @(Model.PrepTime + Model.CookTime) mins | 
+                <i class="fas fa-utensils"></i> @Model.Servings servings
+            </p>
+            <span class="badge badge-primary mb-3">@Model.Category</span>
+
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <img src="@Model.ImageUrl" class="img-fluid rounded mb-4" alt="@Model.Title" style="max-height: 400px; width: 100%; object-fit: cover;">
+            }
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Description</h5>
+                    <p class="card-text">@Model.Description</p>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Ingredients</h5>
+                    <ul class="list-group list-group-flush">
+                        @foreach (var ingredient in Model.RecipeIngredients)
+                        {
+                            <li class="list-group-item">
+                                @ingredient.Quantity @ingredient.Unit @ingredient.Name
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Instructions</h5>
+                    <p class="card-text">@Model.Instructions</p>
+                </div>
+            </div>
+
+            @if (User.Identity.IsAuthenticated && User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value == Model.UserId)
+            {
+                <div class="mb-4">
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@Model.Id" method="post" style="display: inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this recipe?')">Delete</button>
+                    </form>
+                </div>
+            }
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Comments</h5>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form asp-controller="Comment" asp-action="Create" method="post" class="mb-3">
+                            <input type="hidden" name="RecipeId" value="@Model.Id" />
+                            <div class="form-group">
+                                <textarea name="Content" class="form-control" rows="3" placeholder="Write a comment..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Post Comment</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <p class="text-muted">Please <a asp-controller="Account" asp-action="Login">login</a> to leave a comment.</p>
+                    }
+
+                    <div class="comments-list">
+                        @foreach (var comment in Model.Comments.OrderByDescending(c => c.CreatedAt))
+                        {
+                            <div class="comment mb-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="@(string.IsNullOrEmpty(comment.User.ProfilePicture) ? "/images/default-avatar.png" : comment.User.ProfilePicture)" 
+                                             class="rounded-circle" alt="@comment.User.FirstName" style="width: 40px; height: 40px;">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1">@comment.User.FirstName @comment.User.LastName</h6>
+                                        <p class="mb-1">@comment.Content</p>
+                                        <small class="text-muted">@comment.CreatedAt.ToString("MMM dd, yyyy")</small>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Rating</h5>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form asp-controller="Rating" asp-action="Create" method="post" class="mb-3">
+                            <input type="hidden" name="RecipeId" value="@Model.Id" />
+                            <div class="form-group">
+                                <select name="Value" class="form-control">
+                                    <option value="1">1 Star</option>
+                                    <option value="2">2 Stars</option>
+                                    <option value="3">3 Stars</option>
+                                    <option value="4">4 Stars</option>
+                                    <option value="5">5 Stars</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-2">Rate Recipe</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <p class="text-muted">Please <a asp-controller="Account" asp-action="Login">login</a> to rate this recipe.</p>
+                    }
+
+                    <div class="rating-summary">
+                        <h6>Average Rating: @(Model.Ratings.Any() ? Model.Ratings.Average(r => r.Value).ToString("F1") : "No ratings yet")</h6>
+                        <p class="text-muted">@Model.Ratings.Count ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
