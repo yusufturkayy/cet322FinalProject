@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CookShare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+957a2875a0e81d2bcd6a51e38e33c61aa17f8e2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CookShare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CookShare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

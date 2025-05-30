@@ -21,6 +21,7 @@ namespace CookShare.Controllers
         // GET: Recipe
         public async Task<IActionResult> Index(string searchString, string category)
         {
+            Consolelog
             var recipes = _context.Recipes
                 .Include(r => r.User)
                 .Include(r => r.Ratings)

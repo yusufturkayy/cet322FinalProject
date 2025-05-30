@@ -30,6 +30,7 @@ namespace CookShare.Controllers
         {
             if (ModelState.IsValid)
             {
+                System.Diagnostics.Debug.WriteLine("ModelState is valid.");
                 var user = new ApplicationUser
                 {
                     UserName = model.Email,
@@ -58,6 +59,11 @@ namespace CookShare.Controllers
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
+            else
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+                System.Diagnostics.Debug.WriteLine("ModelState Errors: " + string.Join(" | ", errors));
+            }
 
             return View(model);
         }
@@ -73,6 +79,7 @@ namespace CookShare.Controllers
         {
             if (ModelState.IsValid)
             {
+                System.Diagnostics.Debug.WriteLine("ModelState is valid.");
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
 
                 if (result.Succeeded)
@@ -81,6 +88,11 @@ namespace CookShare.Controllers
                 }
 
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            }
+            else
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+                System.Diagnostics.Debug.WriteLine("ModelState Errors: " + string.Join(" | ", errors));
             }
 
             return View(model);
