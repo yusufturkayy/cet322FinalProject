@@ -1,3 +1,46 @@
+// Custom Navbar Styles
+.custom-navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .navbar-brand, 
+.custom-navbar .nav-link {
+    color: #333 !important; /* Darker text color */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #007bff !important; /* Primary color on hover */
+}
+
+/* Custom Card Styles */
+.custom-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card .card-body {
+    padding: 1.25rem;
+}
+
+.custom-card .card-title {
+    margin-bottom: 0.5rem;
+}
+
+.custom-card .card-text {
+    margin-bottom: 1rem;
+}
+
+.custom-card .card-footer {
+    background-color: #f8f9fa; /* Match navbar background */
+    border-top: 1px solid #e9ecef;
+}
+
 html {
   font-size: 14px;
 }

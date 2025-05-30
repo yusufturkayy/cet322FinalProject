@@ -10,6 +10,8 @@ namespace CookShare.Models
         [Range(1, 5)]
         public int Value { get; set; }
 
+        public string Comment { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }
 
@@ -20,7 +22,7 @@ namespace CookShare.Models
         public required string UserId { get; set; }
 
         // Navigation properties
-        public required Recipe Recipe { get; set; }
-        public required ApplicationUser User { get; set; }
+        public Recipe Recipe { get; set; }
+        public ApplicationUser User { get; set; }
     }
 } 
