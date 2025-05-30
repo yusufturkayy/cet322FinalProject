@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png",
+      "PackagePath": "staticwebassets/images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png"
+    },
+    {
+      "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/61bab411-141a-4d6f-bc92-9195607042e3.png",
+      "PackagePath": "staticwebassets/images/61bab411-141a-4d6f-bc92-9195607042e3.png"
+    },
+    {
+      "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png",
+      "PackagePath": "staticwebassets/images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png"
+    },
+    {
       "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
@@ -255,6 +267,18 @@
     {
       "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nlotukxl.w15.png",
+      "PackagePath": "staticwebassets/uploads/nlotukxl.w15.png"
+    },
+    {
+      "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nnzoncay.z20.png",
+      "PackagePath": "staticwebassets/uploads/nnzoncay.z20.png"
+    },
+    {
+      "Id": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/wy02hgua.i44.png",
+      "PackagePath": "staticwebassets/uploads/wy02hgua.i44.png"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.CookShare.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

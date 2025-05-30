@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qr/kMZVWKD82Dz75XXjsei+WGoUSo3kxiu/zOvpJx6Q=",
+  "Hash": "Qm4w5XhLRirUZoKIRqfMZdF6X8ka42qu10lG2juMP1Q=",
   "Source": "CookShare",
   "BasePath": "_content/CookShare",
   "Mode": "Default",
@@ -1445,6 +1445,69 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png",
+      "SourceId": "CookShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/",
+      "BasePath": "_content/CookShare",
+      "RelativePath": "images/53b6a8f2-9121-41a5-bac8-e4f08effe8de#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzua8jz8ft",
+      "Integrity": "qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png"
+    },
+    {
+      "Identity": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/61bab411-141a-4d6f-bc92-9195607042e3.png",
+      "SourceId": "CookShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/",
+      "BasePath": "_content/CookShare",
+      "RelativePath": "images/61bab411-141a-4d6f-bc92-9195607042e3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2veagmd2n2",
+      "Integrity": "Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/61bab411-141a-4d6f-bc92-9195607042e3.png"
+    },
+    {
+      "Identity": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png",
+      "SourceId": "CookShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/",
+      "BasePath": "_content/CookShare",
+      "RelativePath": "images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2veagmd2n2",
+      "Integrity": "Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png"
+    },
+    {
       "Identity": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/js/site.js",
       "SourceId": "CookShare",
       "SourceType": "Discovered",
@@ -2724,6 +2787,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nlotukxl.w15.png",
+      "SourceId": "CookShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/",
+      "BasePath": "_content/CookShare",
+      "RelativePath": "uploads/nlotukxl.w15#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nhnglcnuqw",
+      "Integrity": "FVBqm6ILuEjPg/SLu47I+muzs3vbpHnzHYZv6H6KrJ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/nlotukxl.w15.png"
+    },
+    {
+      "Identity": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nnzoncay.z20.png",
+      "SourceId": "CookShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/",
+      "BasePath": "_content/CookShare",
+      "RelativePath": "uploads/nnzoncay.z20#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "80zknngj4m",
+      "Integrity": "OOGM5wtbPNk5xDohdVOqIvblc5N3qrG9Tjx8AVRE5WY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/nnzoncay.z20.png"
+    },
+    {
+      "Identity": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/wy02hgua.i44.png",
+      "SourceId": "CookShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/",
+      "BasePath": "_content/CookShare",
+      "RelativePath": "uploads/wy02hgua.i44#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzua8jz8ft",
+      "Integrity": "qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/wy02hgua.i44.png"
     }
   ],
   "Endpoints": [
@@ -3916,6 +4042,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.bzua8jz8ft.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:11:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzua8jz8ft"
+        },
+        {
+          "Name": "label",
+          "Value": "images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/53b6a8f2-9121-41a5-bac8-e4f08effe8de.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:11:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/61bab411-141a-4d6f-bc92-9195607042e3.2veagmd2n2.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/61bab411-141a-4d6f-bc92-9195607042e3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2veagmd2n2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/61bab411-141a-4d6f-bc92-9195607042e3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU="
+        }
+      ]
+    },
+    {
+      "Route": "images/61bab411-141a-4d6f-bc92-9195607042e3.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/61bab411-141a-4d6f-bc92-9195607042e3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU="
+        }
+      ]
+    },
+    {
+      "Route": "images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.2veagmd2n2.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:07:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2veagmd2n2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU="
+        }
+      ]
+    },
+    {
+      "Route": "images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/images/a10a3314-36ee-4cc6-8f96-f0a1e94c32b1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:07:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qh5VWq0dgZSACPR9oDzgiotyhDxyZtY+ogNAB1B1XhU="
         }
       ]
     },
@@ -21878,6 +22250,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-fSIPwem7dkw/la3vh7zXsbgkmPg4WSIn3zJ+MvKWKVE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/nlotukxl.w15.nhnglcnuqw.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nlotukxl.w15.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FVBqm6ILuEjPg/SLu47I+muzs3vbpHnzHYZv6H6KrJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:14:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nhnglcnuqw"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/nlotukxl.w15.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FVBqm6ILuEjPg/SLu47I+muzs3vbpHnzHYZv6H6KrJ0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/nlotukxl.w15.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nlotukxl.w15.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FVBqm6ILuEjPg/SLu47I+muzs3vbpHnzHYZv6H6KrJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:14:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FVBqm6ILuEjPg/SLu47I+muzs3vbpHnzHYZv6H6KrJ0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/nnzoncay.z20.80zknngj4m.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nnzoncay.z20.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOGM5wtbPNk5xDohdVOqIvblc5N3qrG9Tjx8AVRE5WY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:12:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "80zknngj4m"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/nnzoncay.z20.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOGM5wtbPNk5xDohdVOqIvblc5N3qrG9Tjx8AVRE5WY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/nnzoncay.z20.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/nnzoncay.z20.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOGM5wtbPNk5xDohdVOqIvblc5N3qrG9Tjx8AVRE5WY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:12:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOGM5wtbPNk5xDohdVOqIvblc5N3qrG9Tjx8AVRE5WY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/wy02hgua.i44.bzua8jz8ft.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/wy02hgua.i44.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 05:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzua8jz8ft"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/wy02hgua.i44.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/wy02hgua.i44.png",
+      "AssetFile": "/Users/yusufturkay/RiderProjects/cet322FinalProject/wwwroot/uploads/wy02hgua.i44.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 05:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qeDsT7vss/enZvgGDGOzqreWpEL7D0oc3kK23lin7QQ="
         }
       ]
     }
