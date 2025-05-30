@@ -20,12 +20,11 @@ namespace CookShare.Models
         [Required]
         public required string Instructions { get; set; }
 
-        public int PrepTime { get; set; } // in minutes
-        public int CookTime { get; set; } // in minutes
+        public int PrepTime { get; set; }
+        public int CookTime { get; set; }
         public int Servings { get; set; }
 
-        [Required]
-        public required string ImageUrl { get; set; } = "/images/default-recipe.jpg";
+        public string ImageUrl { get; set; } = "/images/default-recipe.jpg";
 
         [Required]
         public required string Category { get; set; }
@@ -33,18 +32,18 @@ namespace CookShare.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }
 
-        // Foreign keys
+        // Foreign key - Form binding'den hariç tut ama DB için required
         [Required]
-        public required string UserId { get; set; }
+        [ScaffoldColumn(false)] // Form'da gösterme
+        public string UserId { get; set; } = string.Empty;
 
         // Navigation properties
-        public required ApplicationUser User { get; set; }
-        public required ICollection<Comment> Comments { get; set; } = new List<Comment>();
-        public required ICollection<Rating> Ratings { get; set; } = new List<Rating>();
-        public required ICollection<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
+        public ApplicationUser? User { get; set; }
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+        public ICollection<Rating> Ratings { get; set; } = new List<Rating>();
+        public ICollection<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
 
-        // Computed properties
         [NotMapped]
         public double AverageRating => Ratings.Any() ? Ratings.Average(r => r.Value) : 0;
     }
-} 
+}

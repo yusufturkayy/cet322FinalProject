@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yusufturkay/RiderProjects/Yusuf Türkay_CET322FinalProject/CookShare/CookShare.csproj": {}
+    "/Users/yusufturkay/RiderProjects/cet322FinalProject/CookShare.csproj": {}
   },
   "projects": {
-    "/Users/yusufturkay/RiderProjects/Yusuf Türkay_CET322FinalProject/CookShare/CookShare.csproj": {
+    "/Users/yusufturkay/RiderProjects/cet322FinalProject/CookShare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yusufturkay/RiderProjects/Yusuf Türkay_CET322FinalProject/CookShare/CookShare.csproj",
+        "projectUniqueName": "/Users/yusufturkay/RiderProjects/cet322FinalProject/CookShare.csproj",
         "projectName": "CookShare",
-        "projectPath": "/Users/yusufturkay/RiderProjects/Yusuf Türkay_CET322FinalProject/CookShare/CookShare.csproj",
+        "projectPath": "/Users/yusufturkay/RiderProjects/cet322FinalProject/CookShare.csproj",
         "packagesPath": "/Users/yusufturkay/.nuget/packages/",
-        "outputPath": "/Users/yusufturkay/RiderProjects/Yusuf Türkay_CET322FinalProject/CookShare/obj/",
+        "outputPath": "/Users/yusufturkay/RiderProjects/cet322FinalProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yusufturkay/.nuget/NuGet/NuGet.Config"

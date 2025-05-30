@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jk7DDznP/A8=",
+  "dgSpecHash": "hxL+6IeSLWw=",
   "success": true,
-  "projectFilePath": "/Users/yusufturkay/RiderProjects/Yusuf Türkay_CET322FinalProject/CookShare/CookShare.csproj",
+  "projectFilePath": "/Users/yusufturkay/RiderProjects/cet322FinalProject/CookShare.csproj",
   "expectedPackageFiles": [
     "/Users/yusufturkay/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/yusufturkay/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

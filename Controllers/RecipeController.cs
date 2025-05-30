@@ -21,7 +21,6 @@ namespace CookShare.Controllers
         // GET: Recipe
         public async Task<IActionResult> Index(string searchString, string category)
         {
-            Consolelog
             var recipes = _context.Recipes
                 .Include(r => r.User)
                 .Include(r => r.Ratings)
@@ -29,7 +28,7 @@ namespace CookShare.Controllers
 
             if (!string.IsNullOrEmpty(searchString))
             {
-                recipes = recipes.Where(r => r.Title.Contains(searchString) || 
+                recipes = recipes.Where(r => r.Title.Contains(searchString) ||
                                           r.Description.Contains(searchString));
             }
 
@@ -73,24 +72,36 @@ namespace CookShare.Controllers
         }
 
         // POST: Recipe/Create
+
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Recipe recipe, IFormFile? imageFile)
         {
+            ModelState.Remove("UserId");
+
+            Console.WriteLine("=== CREATE METHOD BAŞLADI ===");
+            Console.WriteLine($"ModelState.IsValid (UserId removed): {ModelState.IsValid}");
+
             if (ModelState.IsValid)
             {
                 var user = await _userManager.GetUserAsync(User);
                 if (user == null)
                 {
+                    Console.WriteLine("USER NULL - UNAUTHORIZED");
                     return Unauthorized();
                 }
 
+                Console.WriteLine($"User ID: {user.Id}");
+
+                // UserId'yi manuel olarak set et
                 recipe.UserId = user.Id;
                 recipe.CreatedAt = DateTime.UtcNow;
 
+                // Image handling
                 if (imageFile != null && imageFile.Length > 0)
                 {
+                    Console.WriteLine($"Image File: {imageFile.FileName}, Size: {imageFile.Length}");
                     var fileName = Path.GetRandomFileName() + Path.GetExtension(imageFile.FileName);
                     var filePath = Path.Combine("wwwroot", "uploads", fileName);
 
@@ -101,11 +112,54 @@ namespace CookShare.Controllers
                     }
 
                     recipe.ImageUrl = "/uploads/" + fileName;
+                    Console.WriteLine($"Image saved: {recipe.ImageUrl}");
+                }
+                else
+                {
+                    recipe.ImageUrl = "/images/default-recipe.jpg";
+                    Console.WriteLine("No image uploaded, using default");
                 }
 
-                _context.Add(recipe);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                Console.WriteLine("DATABASE'E KAYDETMEYE BAŞLIYOR...");
+
+                try
+                {
+                    _context.Add(recipe);
+                    Console.WriteLine("Recipe context'e eklendi");
+
+                    var saveResult = await _context.SaveChangesAsync();
+                    Console.WriteLine($"SaveChangesAsync sonucu: {saveResult}");
+
+                    Console.WriteLine("DATABASE'E KAYIT BAŞARILI - REDIRECT EDİYOR");
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"DATABASE HATASI: {ex.Message}");
+                    if (ex.InnerException != null)
+                    {
+                        Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                    }
+                    return View(recipe);
+                }
+            }
+            else
+            {
+                Console.WriteLine("=== VALIDATION ERRORS ===");
+                foreach (var modelError in ModelState)
+                {
+                    var key = modelError.Key;
+                    var errors = modelError.Value.Errors;
+                    if (errors.Count > 0)
+                    {
+                        Console.WriteLine($"Field: {key}");
+                        foreach (var error in errors)
+                        {
+                            Console.WriteLine($"  Error: {error.ErrorMessage}");
+                        }
+                    }
+                }
+                Console.WriteLine("========================");
             }
 
             return View(recipe);
@@ -254,4 +308,4 @@ namespace CookShare.Controllers
             return _context.Recipes.Any(e => e.Id == id);
         }
     }
-} 
+}
